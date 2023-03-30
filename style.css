@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contener{
+    max-width: 1070px;
+    margin: 0 auto;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+.header{
+    box-sizing: border-box;
+    padding: 15px 0 53px 0;
+    background: url(./img/photo_2023-03-25_12-52-51.jpg
+    ) center / cover no-repeat;
+    height: 100vh;
+}
+h1{
+    
+    margin-top: 5px;
+}
+.header-navbar{
+    color: #252B42;
+}
+.navbar_linck{
+    margin-left: 70px;
+    margin-right: 220px;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.navbar_linck li{
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    list-style: none;
+    color: #737373;
+}
+.header-navbar{
+    display: flex;
+}
+.navbar_btn span{
+    margin-right: 45px;
+    color: white;
+}
+.navbar_btn button{
+    border: 2px solid #000 !important;
+    color: white;
+    width: 190px;
+    height: 52px;
+    background: #23A6F0;
+    border: none;
+    border-radius: 5px;
+}
+.header_leftright{
+    display: flex;
+    justify-content: space-between;
+}
+.left_title{
+    margin-top: 100px;
+    width: 509px;
+    font-weight: 800;
+font-size: 58px;
+line-height: 80px;
+letter-spacing: 0.2px;
+color: #252B42;
+}
+.header_leftright{
+    margin-top: 50px;
+}
+.header_leftright p{
+    margin: 40px 0;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.2px;
+color: #737373;
+width: 376px;
+}
+.left_btn button{
+    transition: all 0.5s;
+    color: #23A6F0;
+    border: 2px solid #23A6F0;
+    background: transparent;
+    width: 185px;
+    height: 52px;
+    border-radius: 40px;
+}
+.left_btn button:hover{
+    color: white;
+    transition: 1s;
+    background: #23A6F0;
+    border: none;
+}
+
+.main{
+    padding: 80px 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.main_fff{
+    display: flex;
+    justify-content: center;
+}
+.main_title{
+    width: 468px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 37px;
+}
+.main_body p{
+    color: #737373;
+    margin: 15px auto 110px auto;
+    text-align: center;
+    width: 500px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.main-block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.block{
+    box-sizing: border-box;
+    border: 1.5px solid #E9E9E9;
+    padding: 35px 40px;
+    width: 328px;
+    height: 193px;
+    margin-bottom: 42px;
+}
+.block li{
+    color: #737373;
+    list-style: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+}
+.block ul li:first-child{
+    display: flex;
+    color: #252B42;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.block i{
+    color: #23A6F0;
+    margin: 0 10px 15px;
+    font-size: 2.7em;
+}
+.main_foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    border-bottom: 1.5px solid #E6E6E6;
+}
+.main_foot h1{
+    color: #252B42;
+    font-weight: 700;
+font-size: 24px;
+}
+.main_foot i{
+    color: #23A6F0;
+    font-size: 1.4em;
+}
+.main_footicon{
+    margin-right: 50px;
+}
+.contact_body{
+    display: flex;
+    padding: 80px 0;
+    justify-content: space-between;
+}
+.bb{
+    width: 146px;
+}
+.bb1{
+    width: 322px !important;
+}
+.bb1 button{
+    color: white;
+    margin-left: -5px;
+    border: none;
+    width: 115px;
+    height: 58px;
+    background: #23A6F0;
+    border-radius: 0px 5px 5px 0px; 
+}
+.bb1 form{
+    margin-top: 20px;
+    display: flex;
+}
+.bb1 input{
+    padding-left: 15px;
+    box-sizing: border-box;
+    width: 248px;
+    border-radius: 5px 0px 0px 5px;
+    height: 58px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+}
+.bb ul li:first-child{
+    font-weight: 700;
+font-size: 16px;
+color: #252B42;
+}
+.bb ul li{
+    font-weight: 600;
+font-size: 14px;
+line-height: 34px;
+color: #737373;
+list-style: none;
+}
+.footer{
+    height: 76px;
+    background: #FAFAFA;
+}
+.footer_body{
+   height: 76px;
+    display: flex;
+    align-items: center;
+
+}
+.footer span{
+    font-weight: 600;
+    font-size: 14px;
+    color: #737373;
+}
